@@ -2,8 +2,6 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/paper-arxiv.2310.02835-B31B1B.svg)](https://arxiv.org/abs/2404.01014)
-
 
 # Rethinking Training-Free Spatio-Temporal Video Grounding: Decoupled Modeling Framework for Efficiency
 
@@ -18,5 +16,3 @@ For an untrimmed video $V$ and a user-specific query $Q$,
 DeMo first extract visual-text similarities based on predicate-center term $Q_{\textbf{p}}$ and original query $Q$ .
 Then the gradient adaptive temporal expansion method  is employed to generate the time segment of the event.
 Finally, the spatial grounding module accurately predict the object tube from the segmented video clip.
-
-
